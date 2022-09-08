@@ -43,7 +43,7 @@ function showNumberSign(input) {
   
   switch (input) {
     case "one":
-        imageTag.src = "one.gif";
+        imageTag.src = "one.png";
         imageTag.style.display = "block";
         oneButton.style.backgroundColor = "yellow";
         twoButton.style.backgroundColor = "white";
@@ -51,7 +51,7 @@ function showNumberSign(input) {
       break;
     
       case "two":
-        imageTag.src = "two.gif";
+        imageTag.src = "two.png";
         imageTag.style.display = "block";
         oneButton.style.backgroundColor = "white";
         twoButton.style.backgroundColor = "yellow";
@@ -59,7 +59,7 @@ function showNumberSign(input) {
       break;
 
       case "three":
-        imageTag.src = "three.gif";
+        imageTag.src = "three.png";
         imageTag.style.display = "block";
         oneButton.style.backgroundColor = "white";
         twoButton.style.backgroundColor = "white";
