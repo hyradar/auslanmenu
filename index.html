@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auslan Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Auslan Menu!</h1>
+    </header>
+    <main>
+        
+        <div class="bevmenu">
+            <button>Beer</button>
+            <button>Wine</button>
+            <button>Cocktails</button>
+            <button>Other</button>
+        </div>
+        <div class="deck">
+            
+            <div class = "card">
+                <div class="left">
+                    <button id ="onebutton"onclick="showNumberSign('one')">1</button>
+                    <button id ="twobutton" onclick="showNumberSign('two')">2</button>
+                    <button id ="threebutton" onclick="showNumberSign('three')">3</button>
+                    <!-- <button id ="vbbutton" onclick="showBeerSign('')">VB</button> -->
+                
+                </div>
+                <div id="beergif"><img src="defaultpic.png" id="numberimg" alt="thanks in auslan" class = "gifs"></div>
+    
+            </div>
+
+            <div class = "card">
+                <div class="left">
+                    <button id ="4xgoldbutton" onclick="showBeerSign('fourx')">4x Gold</button>
+                    <button id ="vbbutton" onclick="showBeerSign('vb')">VB</button>
+                    <button id ="northbutton" onclick="showBeerSign('north')">GN Original</button>
+                    <!-- <button id ="vbbutton" onclick="showBeerSign('')">VB</button> -->
+                
+                </div>
+                <div id="beergif"><img src="defaultpic.png" id="theimgtag" alt="thanks in auslan" class = "gifs"></div>
+    
+            </div>
+
+            <div class = "card">
+                <div class="left">
+                    <button id = "thanksbutton" onclick="showEndingSign('thanks')">Thanks</button>
+                    <button id = "pleasebutton" onclick="showEndingSign('please')">Please</button>
+                    <button id = "yourewelcomebutton" onclick="showEndingSign('yourewelcome')">You're Welcome</button>
+                    <button id = "andbutton" onclick="showEndingSign('and')">And</button>
+                </div>
+                <div id="myDIV"><img src="defaultpic.png" id = "endingimg" alt="thanks in auslan" class = "gifs"></div>
+            </div>
+        </div>
+    
+   
+    </main>
+    <nav>
+        <h1>Beer</h1>
+        <h1>Wine</h1>
+        <h1>Cocktails</h1>
+        <h1>Important Questions</h1>
+    </nav>
+    <aside>Sidebar</aside>
+    <footer>Footer</footer>
+
+ 
+    
+
+</body>
+
+<script src="javascript.js"></script>
+
+</html>
